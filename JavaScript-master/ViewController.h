@@ -7,9 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+//导入JavaScript框架
+#import <JavaScriptCore/JavaScriptCore.h>
 
-@interface ViewController : UIViewController
+@protocol JSObjcDelegate <JSExport>
+- (void)call;
+- (void)getCall:(NSString *)callString;
 
+@end
+@interface ViewController : UIViewController<UIWebViewDelegate,JSObjcDelegate>
+
+@property (nonatomic, strong) JSContext *jsContext;
+@property (strong, nonatomic)  UIWebView *webView;
 
 @end
 

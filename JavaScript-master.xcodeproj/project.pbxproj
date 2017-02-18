@@ -15,6 +15,7 @@
 		740B74CD1E5835FC0030D713 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740B74CB1E5835FC0030D713 /* LaunchScreen.storyboard */; };
 		740B74D81E5835FC0030D713 /* JavaScript_masterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 740B74D71E5835FC0030D713 /* JavaScript_masterTests.m */; };
 		740B74E31E5835FC0030D713 /* JavaScript_masterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 740B74E21E5835FC0030D713 /* JavaScript_masterUITests.m */; };
+		740B74F11E58369A0030D713 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 740B74F01E58369A0030D713 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		740B74DE1E5835FC0030D713 /* JavaScript-masterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JavaScript-masterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		740B74E21E5835FC0030D713 /* JavaScript_masterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JavaScript_masterUITests.m; sourceTree = "<group>"; };
 		740B74E41E5835FC0030D713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		740B74F01E58369A0030D713 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		740B74BC1E5835FC0030D713 /* JavaScript-master */ = {
 			isa = PBXGroup;
 			children = (
+				740B74F01E58369A0030D713 /* index.html */,
 				740B74C01E5835FC0030D713 /* AppDelegate.h */,
 				740B74C11E5835FC0030D713 /* AppDelegate.m */,
 				740B74C31E5835FC0030D713 /* ViewController.h */,
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				740B74CD1E5835FC0030D713 /* LaunchScreen.storyboard in Resources */,
+				740B74F11E58369A0030D713 /* index.html in Resources */,
 				740B74CA1E5835FC0030D713 /* Assets.xcassets in Resources */,
 				740B74C81E5835FC0030D713 /* Main.storyboard in Resources */,
 			);
